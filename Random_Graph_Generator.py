@@ -1,7 +1,7 @@
 import random
 import itertools
 
-n_values = [15]
+n_values = [1, 2, 5, 8, 10, 12, 15, 20, 100, 1000, 10000, 20000]
 
 def create_random_test_file(n):
     filename = f"n_is_{n}.txt"
